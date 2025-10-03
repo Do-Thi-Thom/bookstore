@@ -1,0 +1,93 @@
+1. Role
+
+Admin
+
+Quản lý sách
+
+Quản lý danh mục
+
+Quản lý đơn hàng
+
+Quản lý người dùng (tùy mức độ)
+
+Người mua (khách hàng)
+
+Xem & tìm kiếm sách
+
+Thêm giỏ hàng
+
+Tạo đơn hàng
+
+Theo dõi trạng thái đơn
+
+2. Trang quản lý (Admin site)
+
+Các module chính:
+
+a. Quản lý sách
+
+Thêm / sửa / xóa sách
+
+Thông tin sách: tên, tác giả, giá, mô tả, ảnh bìa, số lượng tồn
+
+Quản lý tồn kho
+
+b. Quản lý danh mục
+
+Thêm / sửa / xóa danh mục sách
+
+Liên kết sách với danh mục
+
+c. Quản lý đơn hàng
+
+Xem danh sách đơn hàng
+
+Xem chi tiết đơn hàng
+
+Cập nhật trạng thái: "Đang xử lý", "Đang giao", "Hoàn thành", "Hủy"
+
+d. Quản lý người dùng (tùy chọn)
+
+Danh sách khách hàng
+
+Khóa / mở tài khoản (nếu cần)
+
+3. Trang bán hàng (Customer site)
+
+Các module chính:
+
+a. Trang chủ & danh mục
+
+Hiển thị danh sách sách
+
+Lọc theo danh mục
+
+Tìm kiếm theo tên / tác giả
+
+b. Chi tiết sản phẩm
+
+Xem thông tin chi tiết sách
+
+Thêm vào giỏ hàng
+
+c. Giỏ hàng
+
+Xem sách trong giỏ
+
+Cập nhật số lượng
+
+Xóa khỏi giỏ
+
+d. Đặt hàng
+
+Nhập thông tin người nhận (tên, số điện thoại, địa chỉ)
+
+Xác nhận đơn hàng
+
+e. Quản lý tài khoản người mua
+
+Đăng ký / đăng nhập
+
+Xem lịch sử đơn hàng
+
+Xem trạng thái đơn hàng

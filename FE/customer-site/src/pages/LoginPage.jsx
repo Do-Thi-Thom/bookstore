@@ -59,7 +59,7 @@ const LoginPage = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 py-8">
       <div className="w-full max-w-md">
-        <Card className="shadow-lg">
+        <Card className="shadow-lg" style={{ marginLeft: '400px', marginRight: '400px' }}>
           <div className="text-center mb-6">
             <Title level={2} className="mb-2">Đăng nhập</Title>
             <Text type="secondary">Chào mừng bạn quay trở lại!</Text>

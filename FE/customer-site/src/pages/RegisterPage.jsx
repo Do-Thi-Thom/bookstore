@@ -66,7 +66,7 @@ const RegisterPage = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 py-8">
       <div className="w-full max-w-2xl">
-        <Card className="shadow-lg">
+        <Card className="shadow-lg" style={{ marginLeft: '200px', marginRight: '200px' }}>
           <div className="text-center mb-6">
             <Title level={2} className="mb-2">Đăng ký tài khoản</Title>
             <Text type="secondary">Tạo tài khoản mới để bắt đầu mua sắm</Text>

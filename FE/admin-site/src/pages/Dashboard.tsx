@@ -132,7 +132,7 @@ const Dashboard: React.FC = () => {
               prefix={<BookOutlined className="text-blue-500" />}
               valueStyle={{ color: '#3f8600' }}
             />
-            <div className="flex items-center mt-2">
+            {/* <div className="flex items-center mt-2">
               {stats?.bookStats.increase ? (
                 <RiseOutlined className="text-green-500 mr-1" />
               ) : (
@@ -141,7 +141,7 @@ const Dashboard: React.FC = () => {
               <span className={`text-sm ${stats?.bookStats.increase ? 'text-green-500' : 'text-red-500'}`}>
                 {(stats?.bookStats.growthRate || 0) > 0 ? '+' : ''}{stats?.bookStats.growthRate || 0}% so với tháng trước
               </span>
-            </div>
+            </div> */}
           </Card>
         </Col>
         
@@ -153,7 +153,7 @@ const Dashboard: React.FC = () => {
               prefix={<ShoppingCartOutlined className="text-orange-500" />}
               valueStyle={{ color: '#cf1322' }}
             />
-            <div className="flex items-center mt-2">
+            {/* <div className="flex items-center mt-2">
               {stats?.orderStats.increase ? (
                 <RiseOutlined className="text-green-500 mr-1" />
               ) : (
@@ -162,7 +162,7 @@ const Dashboard: React.FC = () => {
               <span className={`text-sm ${stats?.orderStats.increase ? 'text-green-500' : 'text-red-500'}`}>
                 {(stats?.orderStats.growthRate || 0) > 0 ? '+' : ''}{stats?.orderStats.growthRate || 0}% so với tuần trước
               </span>
-            </div>
+            </div> */}
           </Card>
         </Col>
         
@@ -174,7 +174,7 @@ const Dashboard: React.FC = () => {
               prefix={<UserOutlined className="text-purple-500" />}
               valueStyle={{ color: '#722ed1' }}
             />
-            <div className="flex items-center mt-2">
+            {/* <div className="flex items-center mt-2">
               {stats?.customerStats.increase ? (
                 <RiseOutlined className="text-green-500 mr-1" />
               ) : (
@@ -183,7 +183,7 @@ const Dashboard: React.FC = () => {
               <span className={`text-sm ${stats?.customerStats.increase ? 'text-green-500' : 'text-red-500'}`}>
                 {(stats?.customerStats.growthRate || 0) > 0 ? '+' : ''}{stats?.customerStats.growthRate || 0}% so với tháng trước
               </span>
-            </div>
+            </div> */}
           </Card>
         </Col>
         
@@ -196,7 +196,7 @@ const Dashboard: React.FC = () => {
               valueStyle={{ color: '#3f8600' }}
               suffix="₫"
             />
-            <div className="flex items-center mt-2">
+            {/* <div className="flex items-center mt-2">
               {stats?.revenueStats.increase ? (
                 <RiseOutlined className="text-green-500 mr-1" />
               ) : (
@@ -205,7 +205,7 @@ const Dashboard: React.FC = () => {
               <span className={`text-sm ${stats?.revenueStats.increase ? 'text-green-500' : 'text-red-500'}`}>
                 {(stats?.revenueStats.growthRate || 0) > 0 ? '+' : ''}{stats?.revenueStats.growthRate || 0}% so với tháng trước
               </span>
-            </div>
+            </div> */}
           </Card>
         </Col>
       </Row>
